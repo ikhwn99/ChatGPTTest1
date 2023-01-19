@@ -1,0 +1,19 @@
+Create a new HTML file with a form to input a queue number and buttons to add and remove items from the queue:
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Queue Number App</title>
+</head>
+<body>
+  <h1>Queue Number App</h1>
+  <form>
+    <label for="queueNumber">Queue Number:</label>
+    <input type="text" id="queueNumber" name="queueNumber">
+    <br>
+    <button type="button" id="addButton" onclick="addToQueue()">Add to Queue</button>
+    <button type="button" id="removeButton" onclick="removeFromQueue()">Remove from Queue</button>
+  </form> 
+  <div id="status"></div>
+  </body>
+</html>
